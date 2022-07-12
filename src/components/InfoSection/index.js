@@ -1,48 +1,60 @@
-import React from 'react'
-import { 
-InfoContainer,
-InfoWrapper,
-InfoRow,
-Column1,
-Column2,
-ImgWrap,
-TextWrapper,
-TopLine,
-Heading,
-Img,
-Subtitle
-} 
-from './InfoElements';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Container, Button } from '../../globalStyles';
+import {
+  InfoSec,
+  InfoRow,
+  InfoColumn,
+  TextWrapper,
+  TopLine,
+  Heading,
+  Subtitle,
+  ImgWrapper,
+  Img
+} from './InfoElements';
 
-
-const InfoSection = ({lightBg, id,  imgStart, topLine, headline, description, alt, img}) => {
-
-
-    
+function InfoSection({
+  primary,
+  lightBg,
+  topLine,
+  lightTopLine,
+  lightText,
+  lightTextDesc,
+  headline,
+  description,
+  buttonLabel,
+  img,
+  alt,
+  imgStart,
+  start
+}) {
   return (
-    
     <>
-    <InfoContainer lightBg={lightBg} id={id} >
-      <InfoWrapper>
-        <InfoRow imgStart={imgStart}>
-          <Column1>
-            <TextWrapper>
-              <TopLine>{topLine}</TopLine>
-              <Heading>{headline}</Heading>
-              <Subtitle>{description}</Subtitle>
-
-            </TextWrapper>
-          </Column1>
-          <Column2>
-          <ImgWrap>
-          <Img src={img} alt={alt} />
-          </ImgWrap>
-          </Column2>
-        </InfoRow>
-      </InfoWrapper>
-</InfoContainer>
+      <InfoSec lightBg={lightBg}>
+        <Container>
+          <InfoRow imgStart={imgStart}>
+            <InfoColumn>
+              <TextWrapper>
+                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <Link to='/sign-up'>
+                  <Button big fontBig primary={primary}>
+                    {buttonLabel}
+                  </Button>
+                </Link>
+              </TextWrapper>
+            </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start={start}>
+                <Img src={img} alt={alt} />
+              </ImgWrapper>
+            </InfoColumn>
+          </InfoRow>
+        </Container>
+      </InfoSec>
     </>
-  )
+  );
 }
 
-export default InfoSection
+export default InfoSection;
