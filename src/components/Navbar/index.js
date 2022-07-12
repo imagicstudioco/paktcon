@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import Logo from '../../images/logo.png';
+import Logo from '../../logo.svg';
 import { Button } from '../../globalStyles';
 import {
   Nav,
@@ -44,6 +44,7 @@ function Navbar() {
           <NavbarContainer>
           <NavLogo to='/' > 
             <img src={Logo} alt='Pakt Consulting' />
+            PAKT CONSULTING
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
