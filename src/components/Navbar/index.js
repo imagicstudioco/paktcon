@@ -1,61 +1,85 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { IconContext } from 'react-icons/lib';
 import Logo from '../../images/logo.png';
-import { FaBars } from 'react-icons/fa';
-import { 
-    Nav, 
-    NavbarContainer, 
-    NavLogo,
-    MobileIcon,
-    NavMenu,
-    NavItem,
-    NavLinks 
-} 
-from './NavbarElements';
+import { Button } from '../../globalStyles';
+import {
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  NavIcon,
+  MobileIcon,
+  NavMenu,
+  NavItem,
+  NavItemBtn,
+  NavLinks,
+  NavBtnLink
+} from './NavbarElements';
 
-const Navbar = ({toggle}) => {
-    return (
-         <>
+function Navbar() {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
+
+  return (
+    <>
+      <IconContext.Provider value={{ color: '#fff' }}>
         <Nav>
-            <NavbarContainer>
-            <NavLogo to='/' > 
-            <img src={Logo} height={75} width={367} alt='Pakt Consulting' />
+          <NavbarContainer>
+          <NavLogo to='/' > 
+            <img src={Logo} alt='Pakt Consulting' />
             </NavLogo>
-            <MobileIcon onClick={toggle}>
-            <FaBars />
+            <MobileIcon onClick={handleClick}>
+              {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
-            <NavMenu>
-            <NavItem>
-            <NavLinks to='/'>Home</NavLinks>
+            <NavMenu onClick={handleClick} click={click}>
+            
+              <NavItem>
+            <NavLinks to='/'onClick={closeMobileMenu}>Home</NavLinks>
             </NavItem>
         
             <NavItem>
-            <NavLinks to='/about'>About</NavLinks>
+            <NavLinks to='/about'onClick={closeMobileMenu}>About</NavLinks>
             </NavItem>
         
             <NavItem>
-            <NavLinks to='/certifications'> Certifications</NavLinks>
+            <NavLinks to='/certifications'onClick={closeMobileMenu}> Certifications</NavLinks>
             </NavItem>
             
             <NavItem>
-            <NavLinks to='/partnerships'>Partnerships & Affiliations</NavLinks>
+            <NavLinks to='/partnerships'onClick={closeMobileMenu}>Partnerships & Affiliations</NavLinks>
             </NavItem>
     
             <NavItem>
-            <NavLinks to='/services'>Services</NavLinks>
+            <NavLinks to='/services'onClick={closeMobileMenu}>Services</NavLinks>
             </NavItem>
         
             <NavItem>
-            <NavLinks to='/contact'>Contact</NavLinks>
+            <NavLinks to='/contact'onClick={closeMobileMenu}>Contact</NavLinks>
             </NavItem>
-
+            
             </NavMenu>
-            </NavbarContainer>
+          </NavbarContainer>
         </Nav>
-        </>
-
-        );
-
-    };
-
+      </IconContext.Provider>
+    </>
+  );
+}
 
 export default Navbar;
