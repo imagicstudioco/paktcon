@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import Logo from '../../logo.svg';
+import Logo from '../../images/logo.png';
 import { Button } from '../../globalStyles';
 import {
   Nav,
