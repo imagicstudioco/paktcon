@@ -6,23 +6,21 @@ import  './bootstrap.min.css';
 import { Link } from "react-router-dom";
 
 
-
-const About = () => {
+const Certifications = () => {
 
     return (
 
         <>
      
-        
 
     <div className="breadcrumb-area">
         <div className="overlay overlay-bg"></div>
         <div className="container">
             <div className="breadcrumb-content">
-                <h2>About Pakt Consulting Ltd</h2>
+                <h2>Our Certifications</h2>
                 <ul>
                     <li><Link to="/">Home</Link></li>
-                    <li className="active">About us</li>
+                    <li className="active">Our Certifications</li>
                 </ul>
             </div>
         </div>
@@ -32,7 +30,7 @@ const About = () => {
     <div className="container">
         <div className="row">
             <div className="col-md-6 mt-20">
-                <h2>About us</h2>
+                <h2>Our Certifications</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit itaque ratione incidunt voluptas. Quaerat quidem dolor, quisquam amet inventore quas adipisci ea sint qui placeat beatae molestias aut, aperiam!</p>
@@ -66,4 +64,4 @@ const About = () => {
 
 
 
-export default About;
+export default Certifications;
