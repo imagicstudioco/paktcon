@@ -50,10 +50,8 @@ export const PricingCard = styled(Link)`
   height: 500px;
   text-decoration: none;
   border-radius: 4px;
-
-  &:nth-child(2) {
     margin: 24px;
-  }
+  
 
   &:hover {
     transform: scale(1.06);
