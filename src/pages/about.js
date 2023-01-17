@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  Img from '../images/undraw_two_factor_authentication_namy.svg';
+import  Img from '../images/about.png';
 import  './style.css';
 import  './bootstrap.min.css';
 import { Link } from "react-router-dom";

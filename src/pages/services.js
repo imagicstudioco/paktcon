@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  Img from '../images/undraw_cloud_files_wmo8.svg';
+import  Img from '../images/services.png';
 import  './style.css';
 import  './bootstrap.min.css';
 import { Link } from "react-router-dom";
