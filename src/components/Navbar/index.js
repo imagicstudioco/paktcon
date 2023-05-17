@@ -47,11 +47,6 @@ function Navbar() {
             <NavItem>
             <NavLinks to='/certifications'onClick={closeMobileMenu}> Certifications</NavLinks>
             </NavItem>
-            
-            <NavItem>
-            <NavLinks to='/partnerships'onClick={closeMobileMenu}>Partnerships & Affiliations</NavLinks>
-            </NavItem>
-    
             <NavItem>
             <NavLinks to='/services'onClick={closeMobileMenu}>Services</NavLinks>
             </NavItem>

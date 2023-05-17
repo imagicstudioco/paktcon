@@ -22,7 +22,6 @@ const Sidebar = ({ isOpen, toggle }) => {
     <SidebarLinks to='/' onClick={toggle}>Home</SidebarLinks>
    <SidebarLinks to='/about' onClick={toggle}>About</SidebarLinks>
    <SidebarLinks to='/certifications' onClick={toggle}> Certifications</SidebarLinks>
-    <SidebarLinks to='/partnerships' onClick={toggle}>Partnerships & Affiliations</SidebarLinks>
     <SidebarLinks to='/services' onClick={toggle}>Services</SidebarLinks>
    <SidebarLinks to='/contact' onClick={toggle}>Contact</SidebarLinks>
     </SidebarMenu>
