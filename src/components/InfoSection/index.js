@@ -6,7 +6,6 @@ import {
   InfoRow,
   InfoColumn,
   TextWrapper,
-  TopLine,
   Heading,
   Subtitle,
   ImgWrapper,
@@ -38,7 +37,7 @@ function InfoSection({
                
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to='/{id}'>
+                <Link to='/{ id }'>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
