@@ -1,30 +1,17 @@
 import React from 'react';
 import Logo from '../../images/logo-footer.png';
-import { Button } from '../../globalStyles';
+
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
 import {
   FooterContainer,
-  FooterSubscription,
-  FooterSubText,
-  FooterSubHeading,
-  Form,
-  FormInput,
-  FooterLinksContainer,
-  FooterLinksWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
-  SocialIcon,
-  WebsiteRights,
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
@@ -37,20 +24,20 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to='/'>
            <img src={Logo} alt='Pakt Consulting' />
-            Pakt Consulting Ltd. © 2022
+            Pakt Consulting Ltd. © 2017 - 2023
           </SocialLogo>
           
           <SocialIcons>
-          <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+          <SocialIconLink href='/linkedin' target="_blank" rel="noreferrer"  aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+            <SocialIconLink href='/facebook' target="_blank" rel="noreferrer"  aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='/instagram' target="_blank" rel="noreferrer"  aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+            <SocialIconLink href='/twitter' target="_blank" rel="noreferrer"  aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
           

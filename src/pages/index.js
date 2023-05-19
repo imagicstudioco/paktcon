@@ -1,10 +1,9 @@
 import React from 'react';
 
 import Herosection from '../components/Herosection';
-import InfoSection from '../components/InfoSection';
-import {homeObjOne , homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
-
-
+import AboutSection from '../components/AboutSection';
+import CertificationSection from '../components/CertificationSection';
+import ServicesSection from '../components/ServicesSection';
 const Home = () => {
    
 
@@ -15,9 +14,9 @@ const Home = () => {
         
        
         <Herosection />
-        <InfoSection {...homeObjOne} />
-        <InfoSection {...homeObjTwo} />
-        <InfoSection {...homeObjThree} />
+        <AboutSection />
+        <CertificationSection />
+        <ServicesSection />
          
         </>
 

@@ -11,6 +11,10 @@ import Sidebar from './components/Sidebar';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Twitter  from './pages/twitter';
+import Facebook  from './pages/facebook';
+import Instagram  from './pages/instagram';
+import Linkedin  from './pages/linkedin';
 
 
 function App() {
@@ -34,6 +38,10 @@ function App() {
       <Route path="/partnerships" element={<Partnerships />}/>
       <Route path="/contact" element={<Contact />}/>
       <Route path="/services" element={<Services />}/>
+      <Route path="/twitter" element={<Twitter />}/>
+          <Route path="/facebook" element={<Facebook />}/>
+          <Route path="/instagram" element={<Instagram />}/>
+          <Route path="/linkedin" element={<Linkedin />}/>
     </Routes>
     <Footer />
     </Router>

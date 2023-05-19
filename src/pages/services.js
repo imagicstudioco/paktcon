@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  Img from '../images/services.png';
+import  Img from '../images/services-1.jpg';
 import  './style.css';
 import  './bootstrap.min.css';
 import { Link } from "react-router-dom";
