@@ -31,22 +31,21 @@ const Certifications = () => {
         <div className="row">
             <div className="col-md-6 mt-20">
                 <h2>Our Certifications</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit itaque ratione incidunt voluptas. Quaerat quidem dolor, quisquam amet inventore quas adipisci ea sint qui placeat beatae molestias aut, aperiam!</p>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit itaque ratione incidunt voluptas. Quaerat quidem dolor, quisquam amet inventore quas adipisci ea sint qui placeat beatae molestias aut, aperiam!</p>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit itaque ratione incidunt voluptas. Quaerat quidem dolor, quisquam amet inventore quas adipisci ea sint qui placeat beatae molestias aut, aperiam!</p>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit itaque ratione incidunt voluptas. Quaerat quidem dolor, quisquam amet inventore quas adipisci ea sint qui placeat beatae molestias aut, aperiam!</p>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit itaque ratione incidunt voluptas. Quaerat quidem dolor, quisquam amet inventore quas adipisci ea sint qui placeat beatae molestias aut, aperiam!</p>
-            </div>
+                <p>At Pakt Consulting, we take pride in our commitment to excellence and our dedication to providing top-notch cybersecurity services to our clients. Our team of highly skilled professionals is equipped with the knowledge and expertise necessary to deliver comprehensive solutions that safeguard businesses against evolving cyber threats. We understand the importance of certifications in demonstrating our competence and proficiency in the field of cybersecurity. Here are some of the certifications held by our team members:</p>
+
+<ol>
+<li>Certified Information Systems Security Professional (CISSP): Our experts possess the CISSP certification, which validates their expertise in designing, implementing, and managing secure information systems. This globally recognized certification demonstrates our commitment to upholding the highest standards of cybersecurity practices.</li><br />
+<li>Certified Ethical Hacker (CEH): Our team includes Certified Ethical Hackers who have undergone rigorous training to identify vulnerabilities in computer systems and networks. With this certification, we possess the skills to assess the security posture of our clients' infrastructures and provide effective recommendations for improvement.</li><br />
+<li>Certified Information Security Manager (CISM): Our professionals have achieved the CISM certification, which demonstrates their proficiency in managing and overseeing information security programs within organizations. This certification enables us to develop robust security strategies tailored to our clients' specific needs.</li><br />
+<li>Certified Cloud Security Professional (CCSP): As organizations increasingly embrace cloud computing, our team members with CCSP certification possess the knowledge and expertise to ensure the security of cloud environments. We understand the unique challenges associated with cloud security and offer tailored solutions to protect our clients' data and applications.</li><br />
+<li>CompTIA Security+: Our team includes professionals with the CompTIA Security+ certification, a widely recognized credential that validates their fundamental knowledge of network security concepts and practices. This certification ensures that our team members are well-versed in the essential principles of cybersecurity.</li><br />
+<li>Certified Information Privacy Professional (CIPP): We have experts who hold the CIPP certification, demonstrating their understanding of global privacy laws and regulations. This certification allows us to provide guidance on privacy compliance and develop strategies to protect sensitive data.</li>
+</ol>
+
+<p>These certifications exemplify our commitment to continuous learning and staying up-to-date with the latest advancements in the cybersecurity field. By maintaining these credentials, we ensure that our clients receive the highest quality of service and benefit from the most current cybersecurity practices.</p>
+<p>Please note that this list represents a sample of the certifications held by our team members at Pakt Consulting. We are constantly pursuing additional certifications and training to expand our knowledge and expertise in the ever-evolving landscape of cybersecurity.</p>
+<p>Contact us today to learn more about how our certified professionals can help safeguard your business against cyber threats.</p>
+                </div>
             <div className="col-md-6">
                 <img src={Img} alt="" />
             </div>

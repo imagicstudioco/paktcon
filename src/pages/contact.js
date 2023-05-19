@@ -1,11 +1,8 @@
 import React from 'react';
-
+import  Img from '../images/contact.jpg';
 import  './style.css';
 import  './bootstrap.min.css';
 import { Link } from "react-router-dom";
-import { FaMapMarker } from 'react-icons/fa';
-import { FaPhone } from 'react-icons/fa';
-import { FaClock } from 'react-icons/fa';
 
 
 
@@ -28,34 +25,40 @@ const Contact = () => {
             </div>
         </div>
     </div>
+    <div className="main-sec"></div>
 
-    <section className="contact-info padding-top-80 padding-bottom-80">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-md-4">
-                        <h3 className="font-alegreya margin-top-30">Contact Us</h3>
-                      </div>
-                      <div className="col-md-8">
-                        <ul className="row">
-                          <li className="col-sm-4"> <FaMapMarker />
-                            <h4 className="font-alegreya">Visit Us</h4>
-                            <p>142 TRAFALGAR STREET, UNITED KINGDOM, GILLINGHAM, ME7 4RP</p>
-                          </li>
-                          <li className="col-sm-4"> <FaClock />
-                            <h4 className="font-alegreya">Working Hours</h4>
-                            <p>Mon - Fri : 9:00 AM - 9:00 PM</p>
-                            <p>Sat : 9:00 AM - 2:00 PM</p>
-                          </li>
-                          <li className="col-sm-4"> <FaPhone />
-                            <h4 className="font-alegreya">Call Us</h4>
-                            <p>(+44)1234567890</p>
-                           
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </section>
+    <div className="container">
+        <div className="row">
+            <div className="col-md-6 mt-20">
+                <h2>Contact Us</h2>
+
+                <p>Thank you for your interest in Pakt Consulting. We are dedicated to providing top-notch cybersecurity solutions to businesses and organizations, helping them protect their valuable assets and sensitive information from evolving cyber threats.</p>
+
+<p>If you have any questions, require further information, or would like to discuss how we can assist you in strengthening your cybersecurity posture, please feel free to reach out to us. We value your feedback, inquiries, and concerns, and we are here to assist you in any way we can.</p>
+
+<p><h5>Contact Information:</h5></p>
+
+<p><strong>General Inquiries:</strong><br />
+For general inquiries or information about our services, please email us at info@paktconsultingltd.co.uk or fill out the contact form below.</p>
+
+<p><strong>Sales Inquiries:</strong><br />
+If you are interested in our cybersecurity solutions and would like to discuss your specific requirements or request a proposal, please email our sales team at sales@paktconsultingltd.co.uk.</p>
+
+
+<p>
+<strong>Phone:</strong><br />
+Main Line: +44 (0) 123 4567 890<br />
+Sales: +44 (0) 123 4567 891<br />
+Support: +44 (0) 123 4567 892</p>
+
+<p>We look forward to hearing from you and assisting you with your cybersecurity needs. At Pakt Consulting, your security is our priority.</p>
+       
+        </div>
+        <div className="col-md-6">
+                <img src={Img} alt="" />
+            </div>
+        </div>
+    </div>
     
 
       
