@@ -29,7 +29,7 @@ const Herosection = () => {
 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
 </HeroBg>
 <HeroContent>
-    <HeroH1>Pakt Consulting</HeroH1>
+    <HeroH1>PAKT Consulting</HeroH1>
     <HeroP>Cyber Security Giant</HeroP>
     <HeroBtnWrapper>
         <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>

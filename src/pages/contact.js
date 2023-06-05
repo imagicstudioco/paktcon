@@ -32,7 +32,7 @@ const Contact = () => {
             <div className="col-md-6 mt-20">
                 <h2>Contact Us</h2>
 
-                <p>Thank you for your interest in Pakt Consulting. We are dedicated to providing top-notch cybersecurity solutions to businesses and organizations, helping them protect their valuable assets and sensitive information from evolving cyber threats.</p>
+                <p>Thank you for your interest in PAKT Consulting. We are dedicated to providing top-notch cybersecurity solutions to businesses and organizations, helping them protect their valuable assets and sensitive information from evolving cyber threats.</p>
 
 <p>If you have any questions, require further information, or would like to discuss how we can assist you in strengthening your cybersecurity posture, please feel free to reach out to us. We value your feedback, inquiries, and concerns, and we are here to assist you in any way we can.</p>
 
@@ -51,7 +51,7 @@ Main Line: +44 (0) 123 4567 890<br />
 Sales: +44 (0) 123 4567 891<br />
 Support: +44 (0) 123 4567 892</p>
 
-<p>We look forward to hearing from you and assisting you with your cybersecurity needs. At Pakt Consulting, your security is our priority.</p>
+<p>We look forward to hearing from you and assisting you with your cybersecurity needs. At PAKT Consulting, your security is our priority.</p>
        
         </div>
         <div className="col-md-6">

@@ -28,8 +28,8 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
           <NavLogo to='/' > 
-            <img src={Logo} alt='Pakt Consulting' />
-            PAKT CONSULTING
+            <img src={Logo} alt='PAKT Consulting' />
+            PAKT  CONSULTING
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
