@@ -39,10 +39,10 @@ const Contact = () => {
 <p><h5>Contact Information:</h5></p>
 
 <p><strong>General Inquiries:</strong><br />
-For general inquiries or information about our services, please email us at info@paktconsultingltd.co.uk or fill out the contact form below.</p>
+For general inquiries or information about our services, please email us at info@paktconsulting.co.uk</p>
 
 <p><strong>Sales Inquiries:</strong><br />
-If you are interested in our cybersecurity solutions and would like to discuss your specific requirements or request a proposal, please email our sales team at sales@paktconsultingltd.co.uk.</p>
+If you are interested in our cybersecurity solutions and would like to discuss your specific requirements or request a proposal, please email our sales team at sales@paktconsulting.co.uk</p>
 
 
 <p>
