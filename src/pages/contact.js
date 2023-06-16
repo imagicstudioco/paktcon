@@ -47,9 +47,7 @@ If you are interested in our cybersecurity solutions and would like to discuss y
 
 <p>
 <strong>Phone:</strong><br />
-Main Line: +44 (0) 123 4567 890<br />
-Sales: +44 (0) 123 4567 891<br />
-Support: +44 (0) 123 4567 892</p>
+Main Line: +44 7549 329 901</p>
 
 <p>We look forward to hearing from you and assisting you with your cybersecurity needs. At PAKT Consulting, your security is our priority.</p>
        

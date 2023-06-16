@@ -24,7 +24,7 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to='/'>
            <img src={Logo} alt='PAKT Consulting' />
-            PAKT Consulting Ltd. © 2017 - 2023
+           © PAKT Consulting Ltd. 
           </SocialLogo>
           
           <SocialIcons>
