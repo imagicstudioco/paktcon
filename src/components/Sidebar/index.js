@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, toggle }) => {
    <SidebarLinks to='/certifications' onClick={toggle}> Certifications</SidebarLinks>
     <SidebarLinks to='/services' onClick={toggle}>Services</SidebarLinks>
    <SidebarLinks to='/contact' onClick={toggle}>Contact</SidebarLinks>
-   <Button to='/assesment'  primary='true' dark='true'>
+   <Button to='/assessment'  primary='true' dark='true'>
           Free Security Assesment 
         </Button>
     </SidebarMenu>

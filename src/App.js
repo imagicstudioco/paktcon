@@ -14,7 +14,7 @@ import Twitter  from './pages/twitter';
 import Facebook  from './pages/facebook';
 import Instagram  from './pages/instagram';
 import Linkedin  from './pages/linkedin';
-import Assesment from './pages/assesment';
+import Assessment from './pages/assessment';
 
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
       <Route path="/certifications" element={<Certifications />}/>
       <Route path="/contact" element={<Contact />}/>
       <Route path="/services" element={<Services />}/>
-      <Route path="/assesment" element={<Assesment />}/>
+      <Route path="/assessment" element={<Assessment />}/>
       <Route path="/twitter" element={<Twitter />}/>
           <Route path="/facebook" element={<Facebook />}/>
           <Route path="/instagram" element={<Instagram />}/>
