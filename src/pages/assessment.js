@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Form from '../components/AuditForm/Form';
 
 
-const Audit = () => {
+const Assesment = () => {
   
 
 
@@ -60,4 +60,4 @@ const Audit = () => {
 
     };
 
-export default Audit;
+export default Assesment;

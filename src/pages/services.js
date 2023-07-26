@@ -30,7 +30,7 @@ const Services = () => {
         <div className="row">
             <div className="col-md-6 mt-20">
                 <h1>Our Services</h1>
-                <p>PAKT  Consulting Limited offer a wide range of services to help businesses</p>
+                <p>PAKT Consulting Limited network security services include a wide range of solutions to help protect your organizations networks and infrastructure from cyber threats.</p>
 
                 <h2>Application Security Programme Creation & Review</h2>
                 <p>Application Security Programme Creation & Review is a comprehensive process focused on enhancing the security posture of an organization's software applications. It involves the development, implementation, and continuous improvement of strategies, policies, and practices to protect applications from potential security threats and vulnerabilities.</p>

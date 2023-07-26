@@ -51,7 +51,7 @@ function Navbar() {
             <NavItem>
             <NavLinks to='/contact'onClick={closeMobileMenu}>Contact</NavLinks>
             </NavItem>
-            <Button to='audit'  primary='true' dark='true'>
+            <Button to='/assesment'  primary='true' dark='true'>
           Free Security Assesment 
         </Button>
             </NavMenu>
