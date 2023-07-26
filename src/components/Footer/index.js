@@ -4,7 +4,6 @@ import Logo from '../../images/logo-footer.png';
 import {
   FaFacebook,
   FaInstagram,
-  FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
 import {
@@ -37,10 +36,6 @@ function Footer() {
             <SocialIconLink href='/instagram' target="_blank" rel="noreferrer"  aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink href='/twitter' target="_blank" rel="noreferrer"  aria-label='Twitter'>
-              <FaTwitter />
-            </SocialIconLink>
-          
           </SocialIcons>
         </SocialMediaWrap>
       </SocialMedia>

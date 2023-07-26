@@ -1,7 +1,6 @@
 import React from 'react';
 import  Img from '../images/contact.jpg';
 import  './style.css';
-import  './bootstrap.min.css';
 import { Link } from "react-router-dom";
 
 

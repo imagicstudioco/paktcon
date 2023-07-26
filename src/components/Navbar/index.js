@@ -1,18 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import Logo from '../../images/logo.png';
+import { Button } from '../NavButtonElements';
 import {
   Nav,
   NavbarContainer,
   NavLogo,
-  NavIcon,
   MobileIcon,
   NavMenu,
   NavItem,
-  NavItemBtn,
-  NavLinks,
-  NavBtnLink
+  NavLinks
 } from './NavbarElements';
 
 function Navbar() {
@@ -53,9 +51,13 @@ function Navbar() {
             <NavItem>
             <NavLinks to='/contact'onClick={closeMobileMenu}>Contact</NavLinks>
             </NavItem>
-            
+            <Button to='audit'  primary='true' dark='true'>
+          Free Security Assesment 
+        </Button>
             </NavMenu>
+           
           </NavbarContainer>
+         
         </Nav>
       </IconContext.Provider>
     </>

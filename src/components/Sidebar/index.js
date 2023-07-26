@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '../NavButtonElements';
 import { 
 
     SidebarContainer, 
@@ -24,7 +25,11 @@ const Sidebar = ({ isOpen, toggle }) => {
    <SidebarLinks to='/certifications' onClick={toggle}> Certifications</SidebarLinks>
     <SidebarLinks to='/services' onClick={toggle}>Services</SidebarLinks>
    <SidebarLinks to='/contact' onClick={toggle}>Contact</SidebarLinks>
+   <Button to='audit'  primary='true' dark='true'>
+          Free Security Assesment 
+        </Button>
     </SidebarMenu>
+    
     </SidebarWrapper>
 </SidebarContainer>
 
