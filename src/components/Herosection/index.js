@@ -6,8 +6,6 @@ import {
     HeroBg,
     VideoBg,
     HeroContent,
-    HeroH1,
-    HeroP,
     HeroBtnWrapper,
     ArrowForward,
     ArrowRight
@@ -24,15 +22,24 @@ const Herosection = () => {
 
 
     return (
-      <HeroContainer>
+      <HeroContainer >
 <HeroBg>
 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
 </HeroBg>
 <HeroContent>
-    <HeroH1>PAKT Consulting</HeroH1>
-    <HeroP>Cyber Security Giant</HeroP>
     <HeroBtnWrapper>
-        <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+        <Button 
+        to='about' 
+        onMouseEnter={onHover} 
+        onMouseLeave={onHover} 
+        primary='true' 
+        dark='true'
+        smooth={true}
+        duration={500}
+        spy={true}
+        exact='true'
+        offset={-80}
+        >
             Get Started { hover ? <ArrowForward /> : <ArrowRight />}
         </Button>
 
