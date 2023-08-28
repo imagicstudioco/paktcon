@@ -1,24 +1,19 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Button } from '../ButtonElements';
 import Video from '../../videos/video.mp4';
+import {Link} from 'react-scroll';
 import { 
     HeroContainer,
     HeroBg,
     VideoBg,
     HeroContent,
-    HeroBtnWrapper,
-    ArrowForward,
-    ArrowRight
+    
 } 
 from './HeroElements';
 
 const Herosection = () => {
 
-    const [hover, setHover] = useState(false)
 
-    const onHover = () => {
-        setHover(!hover)
-    }
 
 
     return (
@@ -27,23 +22,14 @@ const Herosection = () => {
 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
 </HeroBg>
 <HeroContent>
-    <HeroBtnWrapper>
-        <Button 
-        to='about' 
-        onMouseEnter={onHover} 
-        onMouseLeave={onHover} 
-        primary='true' 
-        dark='true'
-        smooth={true}
-        duration={500}
-        spy={true}
-        exact='true'
-        offset={-80}
-        >
-            Get Started { hover ? <ArrowForward /> : <ArrowRight />}
+    
+        <Button primary='true' dark='true'>
+            <Link to='about'>
+            Get Started
+            </Link> 
         </Button>
 
-    </HeroBtnWrapper>
+  
 </HeroContent>
 </HeroContainer>
 );
