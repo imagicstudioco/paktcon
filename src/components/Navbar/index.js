@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import Logo from '../../images/logo.png';
-import { Button } from '../NavButtonElements';
 import {
   Nav,
   NavbarContainer,
