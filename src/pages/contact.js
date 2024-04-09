@@ -44,9 +44,7 @@ For general inquiries or information about our services, please email us at info
 If you are interested in our cybersecurity solutions and would like to discuss your specific requirements or request a proposal, please email our sales team at sales@paktconsulting.co.uk</p>
 
 
-<p>
-<strong>Phone:</strong><br />
-Main Line: +44 7549 329 901</p>
+
 
 <p>We look forward to hearing from you and assisting you with your cybersecurity needs. At PAKT Consulting, your security is our priority.</p>
        
